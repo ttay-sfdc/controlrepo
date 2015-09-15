@@ -1,6 +1,6 @@
 host { 'puppet.example.com':
   ensure       => 'present',
   host_aliases => ['puppet'],
-  ip           => '10.0.0.5',
+  ip           => '192.168.75.128',
   target       => '/etc/hosts',
 }
