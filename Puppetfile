@@ -45,4 +45,4 @@ mod 'zack/r10k', '2.8.0'
 
 # Modules from Github
 mod 'lab_config',
-  :git => 'git@github.com:ttay-sfdc/lab_config'
+  :git => 'git@github.com:ttay-sfdc/lab_config.git'
