@@ -5,7 +5,7 @@ dhcp_server_subnets:
   '192.168.75.0':
     broadcast   : '192.168.75.255'
     netmask     : '255.255.255.0'
-    routers     : '192.168.75.1'
+    routers     : '192.168.75.2'
     range_begin : '192.168.75.100'
     range_end   : '192.168.75.150'
     dns_servers :
