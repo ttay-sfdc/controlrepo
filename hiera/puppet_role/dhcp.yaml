@@ -12,7 +12,7 @@ dhcp_server_subnets:
       - '192.168.75.253'
     domain_name : 'example.com'
     other_opts  :
-      - 'option ntp-servers 192.168.75.1'
+      - 'option ntp-servers 192.168.75.2'
       - 'next-server 192.168.75.251'
 dhcp_server_hosts:
   www:
