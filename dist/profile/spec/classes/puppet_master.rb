@@ -2,7 +2,7 @@ require 'spec_helper'
 describe 'profile::puppet_master', :type => :class do
   let :facts do {
     :osfamily               => 'RedHat',
-    :operatingsystemrelease => '6.5',
+    :operatingsystemrelease => '6.6',
     :concat_basedir         => '/dne/',
   } end
 
